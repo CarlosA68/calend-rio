@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px; /* Aumentando a largura do contêiner para melhor acomodar o calendário */
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif; /* Adicionando uma fonte genérica para melhor legibilidade */
+}
+
+#anoInput {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#calendario {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; /* Adicionando um pequeno espaço acima da tabela */
+}
+
+th, td {
+  padding: 12px; /* Aumentando o espaçamento interno para melhor legibilidade */
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2; /* Adicionando um fundo cinza claro para o cabeçalho da tabela */
+  font-weight: bold;
+}
+
+td {
+  text-align: center; /* Centralizando o texto nas células */
+}
+
+/* Adicionando um estilo para as células com feriados */
+td.feriado {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
